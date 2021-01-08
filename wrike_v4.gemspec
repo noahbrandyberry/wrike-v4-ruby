@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files  = ['README.md', 'LICENSE']
 
   s.files = `git ls-files`.split("\n")
-  s.require_paths = ['lib']
 
   s.add_runtime_dependency('faraday', '~> 1.3.0')
+  s.add_runtime_dependency('faraday_middleware', '~> 1.0')
 end
